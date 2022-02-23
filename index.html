@@ -1,184 +1,285 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="description" content="Hi! I'm Micah Cheng and welcome to my project portfolio website." />
-        <meta name="robots" content="index, follow" />
-        <title>Micah Cheng - Portfolio</title>
-        <link rel="shortcut icon" type="image/png" href="res/img/favIcon.jpg" />
-        <link rel="canonical" href="mwcheng.micahcheng.repl.co/index.html" />
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/solid.css" integrity="sha384-ioUrHig76ITq4aEJ67dHzTvqjsAP/7IzgwE7lgJcg2r7BRNGYSK0LwSmROzYtgzs" crossorigin="anonymous">
-        <link href="res/css/main.css" rel="stylesheet">
-        <link href="res/css/animate.css" rel="stylesheet">
-        <link href="res/css/prism.css" rel="stylesheet">
-        <link href="res/css/logo-colors.css" rel="stylesheet">
+  <head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Micah Cheng</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="res/vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="res/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-        <script type="text/javascript" src="res/js/jquery.waypoints.min.js"></script>
-        <script type="text/javascript" src="res/js/prism.js"></script>
-        <script type="text/javascript" src="res/js/projects.js"></script>
-        <script type="text/javascript" src="res/js/main.js"></script>
-        <script type="text/javascript" src="res/js/ui.js"></script>
-   
-        <!-- GA -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140139636-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <!-- Custom styles for this template -->
+    <link href="res/css/resume.min.css" rel="stylesheet">
 
-            gtag('config', 'UA-140139636-1');
-        </script>
-    </head>
-    <body data-spy="scroll" data-target="#toc">
-        <div class="landing-container background-overlay background-overlay-grey js-landing">
-            <div class="landing-jumbo animated fadeInUp">
-                <div class="landing-jumbo-title">
-                    Micah Cheng
-                </div>
-                <div class="landing-jumbo-subtitle js-landing-subtitle animated"></div>
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="res/img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Micah
+            <span class="text-primary">Cheng</span>
+          </h1>
+          <div class="subheading mb-5">(215) 316-4910 ·
+            <a href="mailto:mwcheng@umich.edu">mwcheng@umich.edu</a>
+          </div>
+          <p class="mb-5"></p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/mwcheng99/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/mwcheng21">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/mwche/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/mwcheng21">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Development Engineer Intern</h3>
+              <div class="subheading mb-3">Rev.com</div>
+              <p>Migrated RevAi API's ecommerce system to handle $15 million+ traffic and collaborated with a customer to produce a custom explicit word filter on their speech to text API.</p>
             </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2021 - August 2021</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Undergraduate Student Researcher</h3>
+              <div class="subheading mb-3">University of Michigan: Zhang Lab</div>
+              <p>Designed an SVM in Python to predict methylation sites and degrees from a protein sequence and predicted structure and function of a minimal genome JCVI-syn3.0.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2018 - January 2021</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Development Engineer Intern</h3>
+              <div class="subheading mb-3">Amazon.com</div>
+              <p>Developed and launched a web application to compare "bundles" used by Alexa to understand user utterances.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2020 - August 2020</span>
+            </div>
+          </div>
+
         </div>
 
-        <div class="section-container js-waypoint-0 js-waypoint-1">
-            <nav id="toc" class="toc js-toc animated fadeOut" data-toggle="toc"></nav>
-            <div class="toc-placeholder js-toc-placeholder"></div>
-            <div class="section-content">
-                <div class="landing-profile-img js-profile-img animated fadeOut"></div>
-                <h1 class="js-waypoint-2">Portfolio</h1>
-                <p>Hi! I'm Micah Cheng and welcome to my project portfolio website. I am a software engineer with 4+ years of programming experience. I am currently studying Computer Science at the University of Michigan. My preferred programming languages are Python and C++ but I have solid experience with other languages including ARM Assembly, C, Java, and HTML. You can find a full list of my skills <a href= 'about.html#skills'>here. </a></p>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Columbia University</h3>
+              <div class="subheading mb-3">Master of Science</div>
+              <div>Computer Science - Machine Learning Track</div>
+              <p>GPA: 3.00</p>
             </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2021 - December 2022</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Michigan</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science</div>
+              <p>GPA: 3.77</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2018 - April 2021</span>
+            </div>
+          </div>
+
         </div>
+      </section>
 
-        <div class="section-container js-waypoint-0 js-waypoint-1">
-            <nav id="toc" class="toc js-toc animated fadeOut" data-toggle="toc"></nav>
-            <div class="section-content">
-                <h1 class="js-waypoint-2">Personal Projects</h1>
-                <p>My typical projects mostly focus on machine learning and frontend development and include those started for my own learning purposes or software I develop for computational biology research. Here are my projects broken down by programming language:</p>
-                <br />
-                <div class="js-language-breakdown" style="min-height: 80px"></div>
-                <br />
-                <p>A collection of various projects can be found below: <a href="about.html#how-to-use-project-cards" style="float:right;"></a></p>
-            </div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicon-python-plain-wordmark"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-c-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-cplusplus-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-java-plain-wordmark"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-javascript-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-react-original-wordmark"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-nodejs"></i>
+            </li>
+
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Integration and Unit Testing</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Research and Documentation</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+
+          </ul>
         </div>
+      </section>
 
-        <div class="halftone-divider"></div>
-        <div class="album project-container-section js-personal-projects"></div>
-        <div class="halftone-divider"></div>
-
-        <div class="section-container">
-
-            <div class="section-content js-waypoint-3">
-                <h1>Coursework</h1>
-                <p>These are some projects I have done while studying at the University of Michigan. Projects can also be viewed by course or by primary programming language used.</p>
-                <br />
-                <div class="landing-coursework-container">
-                    <ul>
-                        <li><a href="projects.html?tag=EECS 388">EECS 388 - Introduction to Computer Security</a></li>
-                        <li><a href="projects.html?tag=EECS 370">EECS 370 - Introduction to Computer Organization</a></li>
-                        <li><a href="projects.html?tag=EECS 281">EECS 281 - Introduction to Data Structures and Algorithms</a></li>
-                        <li><a href="projects.html?tag=EECS 280">EECS 280 - Introduction to Programming</a></li>
-                    </ul>
-					<ul class="js-languages-links">
-                    </ul>
-                </div>
-                <br />
-                <br />
-                <div class="text-center">
-                    <button class="btn btn-primary btn-lg js-shuffle-btn animated fadeOut" onclick="shuffleProjects()">
-                        Shuffle Projects&nbsp;&nbsp;<i class="fas fa-sync"></i>
-                    </button>
-                </div>
-                <br />
-            </div>
+      <!--
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p> I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
         </div>
-        <div class="halftone-divider"></div>
-        <div class="album project-container-section js-school-projects"></div>
-        <div class="halftone-divider"></div>
+      </section>
+      -->
 
-        <div class="section-container">
-            <div class="section-content js-waypoint-4">
-                <h1>Résumé</h1>
-                <p>My full employment history can be viewed on <a href="https://www.linkedin.com/in/micah-cheng-a01a84b4/" target="_blank">LinkedIn</a>. You can find more <a href='about.html'>about me</a> or download my <a href="res/MicahChengResume.pdf">resume</a> below.</p>
-                <div class="landing-contact-container js-download-link-container">
-                    <a href="about.html" class="animated fadeOut" data-trigger="hover" data-toggle="tooltip" data-placement="top" title="About Me"><i class="fas fa-file-alt js-logo logo-color-mute logo-color-download"></i></a>
-                    <a href="res/MicahChengResume.pdf" class="animated fadeOut" target="_blank" data-trigger="hover" data-toggle="tooltip" data-placement="top" title="Download PDF"><i class="fas fa-download js-logo logo-color-mute logo-color-download"></i></a>
-                </div>
-            </div>
-            <div class="section-content js-waypoint-5">
-                <h1>Contact</h1>
-                <p>If you would like to inquire more about my experience or projects, feel free to email me at <a href="mailto: mwcheng@umich.edu">mwcheng@umich.edu </a>. You can also reach out to me on the following platforms:</p>
-                <div class="landing-contact-container js-contact-link-container">
-                    <a href="https://github.com/mwcheng21" target="_blank" class="animated fadeOut" data-trigger="hover" data-toggle="tooltip" data-placement="top" title="GitHub"><i class="fab fa-github js-logo logo-color-mute logo-color-github"></i></a>
-                    <a href="https://www.linkedin.com/in/micah-cheng-a01a84b4/" class="animated fadeOut" target="_blank" data-trigger="hover" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin js-logo logo-color-mute logo-color-linkedin"></i></a>
-                    <a href="https://gitlab.eecs.umich.edu/mwcheng" class="animated fadeOut" target="_blank" data-trigger="hover" data-toggle="tooltip" data-placement="top" title="GitLab"><i class="fab fa-gitlab js-logo logo-color-mute logo-color-gitlab"></i></a>
-                </div>
-            </div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+        <div class="my-auto">
+          <h2 class="mb-5">Publications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-file-text text-warning"></i>
+              <b>Functions of Essential Genes and a Scale-Free Protein Interaction Network Revealed by Structure-Based Function and Interaction Prediction for a Minimal Genome.</b><br>
+              Journal of Proteome Research | 2021-02-05<br>
+              DOI: <a href="https://doi.org/10.1021/acs.jproteome.0c00359">10.1021/acs.jproteome.0c00359</a>
+              <br><br>
+            </li>
+            <li>
+              <i class="fa-li fa fa-file-text text-warning"></i>
+              <b>Two-Level Protein Methylation Prediction using structure model-based features.</b><br>
+              Scientific Reports | 2020-04-07<br>
+              DOI: <a target="_blank" href="https://doi.org/10.1038/s41598-020-62883-2">10.1038/s41598-020-62883-2</a><br>
+              <i>Part of</i> ISSN: <a target="_blank" href="https://portal.issn.org/resource/ISSN/2045-2322">2045-2322</a>
+            </li>
+          </ul>
         </div>
+      </section>
 
-        <script>
-            const backgrounds = ["background-mountains"];
-            const orderedLanguages = ["C", "C++", "Java", "Javascript", "Python"]
+    </div>
 
-            var subtitleIndex = 0;
-            const subtitles = ["Software Engineer", "Software Engineer", "Researcher", "Problem Solver"];
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-            function updateSubtitle() {
-                $('.js-landing-subtitle').removeClass('flipInX').addClass('flipOutX');
-                setTimeout(function() {
-                    if (subtitleIndex >= subtitles.length) {
-                        subtitleIndex = 0;
-                    }
-                    $('.js-landing-subtitle').text(subtitles[subtitleIndex]);
-                    ++subtitleIndex;
-                    $('.js-landing-subtitle').removeClass('flipOutX').addClass('flipInX');
-                    setTimeout(updateSubtitle, 4000);
-                }, 500);
-            }
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-            function shuffleProjects() {
-                $('.js-shuffle-btn').attr('disabled', true);
-                $('.js-shuffle-btn').children('i').addClass('fa-spin');
-                $('.js-school-projects').empty();
-                loadProjectsExceptCategoryRandom(buildProjectContainer($('.js-school-projects')), 'Personal', 4);
-                setTimeout(function () {
-                    $('.js-shuffle-btn').attr('disabled', false);
-                    $('.js-shuffle-btn').children('i').removeClass('fa-spin');
-                }, 1000);
-            }
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
 
-            $(function () {
-                var randomIndex = Math.floor(Math.random() * backgrounds.length);
-                $('.js-landing').addClass(backgrounds[randomIndex]);
-                updateSubtitle();
+  </body>
 
-                loadProjectsByCategory(buildProjectContainer($('.js-personal-projects')), 'Personal', 4, true, "fadeOut");
-                loadProjectsExceptCategoryRandom(buildProjectContainer($('.js-school-projects')), 'Personal', 4, true, "fadeOut");
-
-                var $languagesLinks = $('.js-languages-links');
-                for (var i = orderedLanguages.length - 1; i >= 0; --i) {
-                    $("<li>" + getPillHtml(orderedLanguages[i]) + "</li>").prependTo($languagesLinks)
-                }
-            });
-        </script>
-        <script type="text/javascript" src="res/js/index-waypoints.js"></script>
-    </body>
-
-    <TABLE WIDTH="93" CELLSPACING="0" BORDER="0" CELLPADDING="0"><TR><TD HEIGHT="26" WIDTH="93"><A TARGET='_blank' HREF=><IMG SRC=http://www.imgserver.org/quag-40656.gif WIDTH="93" ALT="" BORDER="0" HEIGHT="26"></A></TD></TR><TR><TD HEIGHT="15">
-    <TD COLSPAN="2" HEIGHT="16"></TD></TR></TABLE>
-
-    
 </html>
