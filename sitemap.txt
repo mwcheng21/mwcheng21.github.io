@@ -1,1 +1,5 @@
 index.html
+/travels/index.html
+/travels/japan.html
+/travels/korea.html
+/travels/taiwan.html
