@@ -1,0 +1,12 @@
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 20vw;
+}
+
+
+.col img {
+    text-align: center;
+}
